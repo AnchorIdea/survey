@@ -1,9 +1,9 @@
 # Change these
-server '132.148.69.243', port: 22, roles: [:web, :app, :db], primary: true
+server '192.169.171.139', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:Lacomus/survey.git'
-set :application,     'survey_site'
-set :user,            'deploy'
+set :application,     'survey'
+set :user,            'deployad'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 
